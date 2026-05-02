@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>About – Motivax</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', 'Poppins', Roboto, sans-serif;
+            background: #0D1B2A;
+            color: #e0e0e0;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #1B263B;
+            border-radius: 24px;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.5);
+            overflow: hidden;
+        }
+        .header {
+            background: linear-gradient(135deg, #0D1B2A 0%, #1B263B 100%);
+            padding: 30px;
+            text-align: center;
+            border-bottom: 3px solid #FCA311;
+        }
+        .app-icon {
+            width: 80px;
+            height: 80px;
+            border-radius: 20px;
+            background: #FCA311;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 16px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        }
+        .app-icon span {
+            font-size: 48px;
+            font-weight: bold;
+            color: #0D1B2A;
+        }
+        h1 {
+            color: #FCA311;
+            font-size: 2.2rem;
+            letter-spacing: -0.5px;
+            margin-bottom: 8px;
+        }
+        .tagline {
+            color: #ccc;
+            font-size: 1rem;
+            font-style: italic;
+        }
+        .content {
+            padding: 30px;
+        }
+        h2 {
+            color: #FCA311;
+            margin: 24px 0 12px 0;
+            font-size: 1.6rem;
+            border-left: 4px solid #FCA311;
+            padding-left: 12px;
+        }
+        h2:first-of-type {
+            margin-top: 0;
+        }
+        p, li {
+            color: #ddd;
+            margin-bottom: 12px;
+        }
+        .feature-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 16px;
+            margin: 20px 0;
+        }
+        .feature-card {
+            background: #0D1B2A;
+            padding: 16px;
+            border-radius: 16px;
+            text-align: center;
+        }
+        .feature-icon {
+            font-size: 32px;
+            margin-bottom: 8px;
+        }
+        .feature-title {
+            font-weight: bold;
+            color: #FCA311;
+            margin-bottom: 8px;
+        }
+        .badge {
+            display: inline-block;
+            background: #FCA311;
+            color: #0D1B2A;
+            padding: 4px 12px;
+            border-radius: 30px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        .version {
+            background: #2A3B4C;
+            padding: 6px 12px;
+            border-radius: 20px;
+            display: inline-block;
+            font-family: monospace;
+        }
+        .footer {
+            background: #0D1B2A;
+            padding: 20px;
+            text-align: center;
+            font-size: 0.8rem;
+            color: #aaa;
+            border-top: 1px solid #2A3B4C;
+        }
+        a {
+            color: #FCA311;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .button-link {
+            display: inline-block;
+            background: #FCA311;
+            color: #0D1B2A;
+            padding: 8px 20px;
+            border-radius: 40px;
+            margin-top: 16px;
+            font-weight: bold;
+            transition: background 0.2s;
+        }
+        .button-link:hover {
+            background: #e09d0c;
+            text-decoration: none;
+        }
+        hr {
+            border-color: #2A3B4C;
+            margin: 24px 0;
+        }
+        @media (max-width: 600px) {
+            .container { margin: 20px auto; }
+            .content { padding: 20px; }
+            h1 { font-size: 1.8rem; }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <div class="app-icon"><span>M</span></div>
+        <h1>Motivax</h1>
+        <div class="tagline">Your daily dose of motivation</div>
+        <div style="margin-top: 12px;">
+            <span class="badge">Inspire</span>
+            <span class="badge">Empower</span>
+            <span class="badge">Succeed</span>
+        </div>
+        <div style="margin-top: 16px;">
+            <span class="version">Version 1.0.0+1</span>
+        </div>
+    </div>
+
+    <div class="content">
+        <h2>📖 Our Story</h2>
+        <p>Motivax was born from a simple idea: everyone deserves a daily spark of inspiration. We believe that a few powerful words can shift your mindset, fuel your ambition, and help you overcome challenges. Whether you're starting your morning or need a midday boost, Motivax delivers hand‑picked motivational quotes to keep you moving forward.</p>
+
+        <h2>✨ Features</h2>
+        <div class="feature-list">
+            <div class="feature-card">
+                <div class="feature-icon">📚</div>
+                <div class="feature-title">100+ Quotes</div>
+                <div>Carefully curated from timeless wisdom.</div>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🔀</div>
+                <div class="feature-title">Random Refresh</div>
+                <div>Shuffle quotes to keep things fresh.</div>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">📋</div>
+                <div class="feature-title">Copy & Share</div>
+                <div>Easily share wisdom with friends.</div>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🌙</div>
+                <div class="feature-title">Dark Theme</div>
+                <div>Easy on the eyes, day or night.</div>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">📄</div>
+                <div class="feature-title">Pagination</div>
+                <div>12 quotes per page, swipe to explore.</div>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">💡</div>
+                <div class="feature-title">Preview</div>
+                <div>View quotes in a focused dialog.</div>
+            </div>
+        </div>
+
+        <h2>💖 Developed with Love</h2>
+        <p>Motivax is created and maintained by <strong>Mohax</strong>, a solo developer passionate about building apps that bring positivity into daily life. Your support – whether by rating the app, sharing it, or buying a coffee – keeps this project alive and growing.</p>
+        <a href="https://ko-fi.com/mohax" class="button-link" target="_blank">☕ Support on Ko‑fi</a>
+
+        <h2>📱 Get in Touch</h2>
+        <p>Questions, feedback, or just want to say hi? Reach out via email:</p>
+        <p><strong>📧 motivax@mohax.dev</strong> (replace with your actual email)</p>
+        <p>Follow for updates on new features and more motivational content.</p>
+
+        <hr>
+        <p style="text-align: center; font-size: 0.9rem;">&copy; 2026 Motivax – Stay inspired, stay driven.</p>
+    </div>
+
+    <div class="footer">
+        <a href="https://mohaxdev.github.io/motivax/privacy.html">Privacy Policy</a> &nbsp;|&nbsp;
+        <a href="https://mohaxdev.github.io/motivax/terms.html">Terms</a> &nbsp;|&nbsp;
+        <a href="https://mohaxdev.github.io/motivax/disclaimer.html">Disclaimer</a>
+    </div>
+</div>
+</body>
+</html>
